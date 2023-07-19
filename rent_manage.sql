@@ -224,19 +224,19 @@ INSERT INTO users VALUES (10019, '123896', 29, 'beyonce', 404, 'Nashville Road',
 
 
 
-1. INSERT INTO property VALUES (3, 10004,20001, 5, 2005, '2023-05-01', '2024-05-01', 1500, 1200, 2000, 'Midtown', 4, '101 Park Ave');
-2. INSERT INTO property VALUES (1, 10006,20002, 2, 1995, date '2023-05-01',  date '2024-05-01', 800, 600, 1500, 'Downtown', 2, '20 W 34th St');
-3. INSERT INTO property VALUES (4, 10010, 20003, 7, 2010, date  '2023-05-01', date  '2024-05-01', 2000, 1600, 3000, 'Westside', 5, '1001 5th Ave');
-4. INSERT INTO property VALUES (2, 10004, 20004, 3, 1985,date  '2023-05-01', date '2024-05-01', 1200, 900, 1200, 'Eastside', 3, '10 E Lake St');
-5. INSERT INTO property VALUES (5, 10012, 20005, 6, 2015,date  '2023-05-01', date '2024-05-01', 2500, 2000, 3500, 'Uptown', 6, '555 10th Ave');
-6. INSERT INTO property VALUES (3, 10006, 20006, 4, 2000,date  '2023-05-01',date  '2024-05-01', 1500, 1100, 1800, 'Midtown', 4, '45 W 30th St');
-7. INSERT INTO property VALUES (2, 10004, 20007, 3, 1990,date  '2023-05-01',date  '2024-05-01', 1000, 800, 1000, 'Downtown', 2, '35 5th Ave');
-8. INSERT INTO property VALUES (4, 10010, 20008, 5, 2005, date  '2023-05-01',date   '2024-05-01', 1800, 1400, 2500, 'Westside', 4, '1200 6th Ave');
-9. INSERT INTO property VALUES (1, 10012, 20009, 2, 1998,date  '2023-05-01',date  '2024-05-01', 900, 700, 1300, 'Eastside', 2, '15 E 23rd St');
-11. INSERT INTO property VALUES (3, 10015, 1001, 50, 2010, '2022-01-01', '2024-01-01', 2000, 1500, 3000, 'Downtown', 4, '123 Main Street');
-12.INSERT INTO property VALUES (2,10002, 1002, 30, 2005,date  '2022-02-01', date '2024-02-01', 1500, 1000, 2000, 'Suburb', 3, '456 Oak Avenue');
-13.INSERT INTO property VALUES (4,10017, 1003, 70, 2015,date  '2022-03-01', 
-date '2024-03-01', 3000, 2000, 4000, 'Beachfront', 5, '789 Ocean Boulevard');
+INSERT INTO property VALUES (3, 10004,20001, 5, 2005, date '2023-05-01',date '2024-05-01', 1500, 1200, 2000, 'Midtown', 4, '101 Park Ave');
+ INSERT INTO property VALUES (1, 10006,20002, 2, 1995, date '2023-05-01',  date '2024-05-01', 800, 600, 1500, 'Downtown', 2, '20 W 34th St');
+ INSERT INTO property VALUES (4, 10010, 20003, 7, 2010, date  '2023-05-01', date  '2024-05-01', 2000, 1600, 3000, 'Westside', 5, '1001 5th Ave');
+INSERT INTO property VALUES (2, 10004, 20004, 3, 1985,date  '2023-05-01', date '2024-05-01', 1200, 900, 1200, 'Eastside', 3, '10 E Lake St');
+ INSERT INTO property VALUES (5, 10012, 20005, 6, 2015,date  '2023-05-01', date '2024-05-01', 2500, 2000, 3500, 'Uptown', 6, '555 10th Ave');
+ INSERT INTO property VALUES (3, 10006, 20006, 4, 2000,date  '2023-05-01',date  '2024-05-01', 1500, 1100, 1800, 'Midtown', 4, '45 W 30th St');
+ INSERT INTO property VALUES (2, 10004, 20007, 3, 1990,date  '2023-05-01',date  '2024-05-01', 1000, 800, 1000, 'Downtown', 2, '35 5th Ave');
+ INSERT INTO property VALUES (4, 10010, 20008, 5, 2005, date  '2023-05-01',date   '2024-05-01', 1800, 1400, 2500, 'Westside', 4, '1200 6th Ave');
+ INSERT INTO property VALUES (1, 10012, 20009, 2, 1998,date  '2023-05-01',date  '2024-05-01', 900, 700, 1300, 'Eastside', 2, '15 E 23rd St');
+ INSERT INTO property VALUES (3, 10015, 1001, 50, 2010,date '2022-01-01', date'2024-01-01', 2000, 1500, 3000, 'Downtown', 4, '123 Main Street');
+INSERT INTO property VALUES (2,10002, 1002, 30, 2005,date  '2022-02-01', date '2024-02-01', 1500, 1000, 2000, 'Suburb', 3, '456 Oak Avenue');
+INSERT INTO property VALUES (4,10017, 1003, 70, 2015,date  '2022-03-01', date '2024-03-01', 3000, 2000, 4000, 'Beachfront', 5, '789 Ocean Boulevard');
+
 
 
 
