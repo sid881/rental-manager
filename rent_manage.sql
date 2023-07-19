@@ -43,13 +43,10 @@ BEGIN
 END;
 CREATE OR REPLACE PROCEDURE GetTenantDetails(propertyw IN NUMBER) AS
 BEGIN
-  FOR tenant IN (SELECT u.* FROM users u JOIN table_rental t ON u.adharid = t.tenant_id WHERE t.property_id = propertyw)
+  FOR tenant IN (SELECT u.* FROM users u JOIN rental t ON u.adharid = t.tenant_id WHERE t.property_id = propertyw)
   LOOP
     DBMS_OUTPUT.PUT_LINE('Tenant ID: ' || tenant.adharid);
     DBMS_OUTPUT.PUT_LINE('Name: ' || tenant.name);
-    DBMS_OUTPUT.PUT_LINE('Email: ' || tenant.email);
-    DBMS_OUTPUT.PUT_LINE('Phone: ' || tenant.phone);
-    DBMS_OUTPUT.PUT_LINE('Address: ' || tenant.address);
     DBMS_OUTPUT.PUT_LINE('---');
   END LOOP;
 END;
@@ -242,6 +239,9 @@ INSERT INTO property VALUES (4,10017, 1003, 70, 2015,date  '2022-03-01', date '2
 
 
 
+insert into rental values(20001,10004,date  '2023-05-01', date '2024-05-01',3,100,5)
+    insert into rental values(20003,10010, date  '2023-05-01', date  '2024-05-01',3,100,5)
+insert into rental values(20002,10006,date  '2023-05-01', date '2024-05-01',3,100,5)
 
 
 
@@ -265,7 +265,7 @@ INSERT INTO property VALUES (4,10017, 1003, 70, 2015,date  '2022-03-01', date '2
 
 
  exec CreateNewUser(100198, 'pass123', 24, 'John Smith', 101, 'Main Street', 'New York', 'NY', 10001);
- Exec insertproperty (3, 10004, 20001, 5, 2005, , date '2023-05-01', date '2024-05-01', 1500, 1200, 2000, 'Midtown', 4, 'ParkAve');
+ Exec insertproperty (3, 10004, 200010, 5, 2005,  date '2023-05-01', date '2024-05-01', 1500, 1200, 2000, 'Midtown', 4, 'ParkAve');
 Exec  GetTenantDetails(20006);
 Exec GetRentHistory(20008);
 Exec GetPropertyRecords(10004);
